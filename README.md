@@ -147,7 +147,7 @@ The `nslookup` command was used to resolve the target domain to an IP address.
 Example result observed during the practical:
 
 ```text
-192.232.216.128
+172.20.20.2
 ```
 
 ### Security Relevance
@@ -248,7 +248,7 @@ The following findings were identified during the practical exercises.
 | # | Finding                                | Evidence / Observation                               | Potential Impact                                           | Risk      |
 | - | -------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------- | --------- |
 | 1 | Web technology information exposed     | WhatWeb identified WordPress and WP Download Manager | May assist technology fingerprinting and security research | 🟠 Medium |
-| 2 | Server IP identifiable                 | nslookup resolved the domain to `192.232.216.128`    | Provides information about the web service infrastructure  | 🟢 Low    |
+| 2 | Server IP identifiable                 | nslookup resolved the domain to `172.20.10.2`    | Provides information about the web service infrastructure  | 🟢 Low    |
 | 3 | HTTP technical information exposed     | curl returned HTTP response headers and `/wp-json/`  | May assist further enumeration                             | 🟢 Low    |
 | 4 | WAF technology identifiable            | Wafw00f identified ModSecurity                       | Reveals part of the application's security architecture    | 🟢 Low    |
 | 5 | DNS infrastructure information exposed | DNSRecon identified DNS, mail and service records    | Can assist external infrastructure mapping                 | 🟠 Medium |
@@ -268,6 +268,7 @@ The following findings were identified during the practical exercises.
 
 # 🖼️ Screenshots & Evidence
 
+
 <img width="960" height="540" alt="Screenshot-s1" src="https://github.com/user-attachments/assets/e0251833-8225-4e8f-8726-981c65df4479" />
 
 <img width="960" height="540" alt="Screenshot-s2" src="https://github.com/user-attachments/assets/2f8b3cc1-46cc-4f2b-bc96-0ad61904d30c" />
@@ -279,41 +280,6 @@ The following findings were identified during the practical exercises.
 <img width="960" height="540" alt="Screenshot-s5" src="https://github.com/user-attachments/assets/2dafbcad-c4bd-42c9-9bab-9a0c34a32d4b" />
 
 <img width="960" height="540" alt="Screenshot-s6" src="https://github.com/user-attachments/assets/dd7e0666-ff46-402e-ad58-86944dd4449e" />
-
-
-## WHOIS
-
-![WHOIS Scan](evidence/01-whois.png)
-
----
-
-## WhatWeb
-
-![WhatWeb Scan](evidence/02-whatweb.png)
-
----
-
-## nslookup
-
-![Nslookup Results](evidence/03-nslookup.png)
-
----
-
-## Curl HTTP Headers
-
-![Curl Headers](evidence/04-curl-headers.png)
-
----
-
-## Wafw00f
-
-![Wafw00f Results](evidence/05-wafw00f.png)
-
----
-
-## DNSRecon
-
-![DNSRecon Results](evidence/06-dnsrecon.png)
 
 ---
 
@@ -468,6 +434,5 @@ The author does not encourage unauthorized access or malicious use of the techni
 
 ⭐ **This project demonstrates my practical learning journey in cybersecurity, with a focus on reconnaissance, footprinting, network discovery and professional security reporting.**
 
-```
 
 
