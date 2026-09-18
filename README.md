@@ -1,5 +1,5 @@
 # NETWORKWALKS-B083-WK2-PM-CYBERSECURITY-PENETRATION-TESTING-REPORT
-FOOTPRINTING &amp; NETWORK SCANNING PHASES
+
 # 🛡️ Penetration Testing – Footprinting & Network Scanning
 
 ![Cybersecurity](https://img.shields.io/badge/Focus-Cybersecurity-red)
@@ -8,16 +8,6 @@ FOOTPRINTING &amp; NETWORK SCANNING PHASES
 ![Nmap](https://img.shields.io/badge/Tool-Nmap%2FZenmap-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Week](https://img.shields.io/badge/Program-Week%2002-orange)
-
-## 👤 Author
-
-**Nontethelelo Mahlangu**
-
-Cybersecurity & Ethical Hacking Intern  
-**Program:** Cybersecurity Program – Networkwalks  
-**Batch:** B083-Networkwalks  
-**Week:** 02  
-**Date:** 18 September 2026
 
 ---
 
@@ -97,3 +87,36 @@ The project followed a simplified penetration-testing methodology.
 ┌─────────────────────────────┐
 │ Risk Analysis & Reporting   │
 └─────────────────────────────┘
+
+🛠️ Tools & Technologies
+
+| Tool           | Purpose                                            |
+| -------------- | -------------------------------------------------- |
+| 🐉 Kali Linux  | Penetration-testing and reconnaissance environment |
+| 🔎 WHOIS       | Domain registration and name-server information    |
+| 🌐 WhatWeb     | Web technology fingerprinting                      |
+| 📡 nslookup    | DNS resolution and IP identification               |
+| 📨 curl -I     | HTTP response-header inspection                    |
+| 🛡️ wafw00f    | Web Application Firewall detection                 |
+| 🌐 DNSRecon    | DNS record enumeration                             |
+| 🗺️ Zenmap     | Graphical interface for Nmap network scanning      |
+| 💻 Windows CMD | Local IP and MAC address identification            |
+| 🔍 Nmap        | Network discovery and host identification          |
+
+
+🔎 Phase 1 – Reconnaissance & Footprinting
+1. WHOIS
+
+WHOIS was used to obtain publicly available domain registration information and identify infrastructure-related information such as name servers.
+
+Objective
+
+The objective was to understand what information about the domain could be obtained through publicly available registration records.
+
+Security Relevance
+
+Publicly available registration information can contribute to an attacker's understanding of an organization's infrastructure and external footprint.
+
+2. WhatWeb
+
+WhatWeb was used to fingerprint the technologies used by the target website.
