@@ -1,4 +1,4 @@
-# NETWORKWALKS-B083-WK2-PM-CYBERSECURITY-PENETRATION-TESTING-REPORT
+# NETWORKWALKS-B083-WK2-PM-CYBERSECURITY-FINAL-SAMPLE-REPORT
 
 # 🛡️ Penetration Testing – Footprinting & Network Scanning
 
@@ -128,11 +128,6 @@ Publicly available registration information can contribute to an attacker's unde
 
 WhatWeb was used to fingerprint the technologies used by the target website.
 
-The exercise identified information including:
-
-* WordPress
-* WP Download Manager
-* Other web technology information exposed by the website
 
 ### Security Relevance
 
@@ -271,15 +266,21 @@ The following findings were identified during the practical exercises.
 
 <img width="960" height="540" alt="Screenshot-s1" src="https://github.com/user-attachments/assets/e0251833-8225-4e8f-8726-981c65df4479" />
 
+
 <img width="960" height="540" alt="Screenshot-s2" src="https://github.com/user-attachments/assets/2f8b3cc1-46cc-4f2b-bc96-0ad61904d30c" />
+
 
 <img width="960" height="540" alt="Screenshot-s3" src="https://github.com/user-attachments/assets/5cdebf12-41d2-4a36-9e51-97e0eb4e57d6" />
 
+
 <img width="960" height="540" alt="Screenshot-s4" src="https://github.com/user-attachments/assets/b9491cfa-5eeb-4307-8f7d-c15fe57cedf7" />
+
 
 <img width="960" height="540" alt="Screenshot-s5" src="https://github.com/user-attachments/assets/2dafbcad-c4bd-42c9-9bab-9a0c34a32d4b" />
 
+
 <img width="960" height="540" alt="Screenshot-s6" src="https://github.com/user-attachments/assets/dd7e0666-ff46-402e-ad58-86944dd4449e" />
+
 
 ---
 
@@ -287,17 +288,20 @@ The following findings were identified during the practical exercises.
 
 <img width="1245" height="437" alt="ZenPicture" src="https://github.com/user-attachments/assets/08d7a078-945e-456e-b971-1ab5acafbc4c" />
 
+
 ---
 
 ## Zenmap Network Scan
 
 <img width="1245" height="437" alt="ZenPicture" src="https://github.com/user-attachments/assets/7ab0f46b-5ed5-4f22-b174-61fc7891f445" />
 
+
 ---
 
 ## Zenmap Network Topology
 
 <img width="1222" height="773" alt="zen2" src="https://github.com/user-attachments/assets/87351687-6fed-431e-be4d-94fb4d6e097d" />
+
 
 ---
 
