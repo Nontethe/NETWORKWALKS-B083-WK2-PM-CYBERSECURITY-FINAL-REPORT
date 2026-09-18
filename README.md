@@ -426,6 +426,8 @@ The author does not encourage unauthorized access or malicious use of the techni
 # 👤 Author
 
 ## Nontethelelo Mahlangu
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nontethelelo%20Mahlangu-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nontethelelo-mahlangu-6a5103275/)
+
 
 **Cybersecurity & Ethical Hacking Intern**
 
