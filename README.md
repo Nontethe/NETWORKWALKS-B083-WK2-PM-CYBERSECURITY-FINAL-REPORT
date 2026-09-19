@@ -142,7 +142,7 @@ The `nslookup` command was used to resolve the target domain to an IP address.
 Example result observed during the practical:
 
 ```text
-172.20.20.2
+172.20.10.2
 ```
 
 ### Security Relevance
